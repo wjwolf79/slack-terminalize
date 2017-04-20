@@ -23,7 +23,7 @@ var logger = require('winston'),
  */
 var isInitialized = function() {
 	return handlers !== undefined && handlers.length > 0;
-}
+};
 
 /**
  * Reads commands.json from CONFIG_DIR and sets up handlers.
